@@ -52,6 +52,8 @@ app.get('/collectibles/:index', (req, res) => {
 
 // Exercise 4: Filter Shoes by Query Parameters
 
+// I'm so lost here... submitting this lab for now and will come back to this one later
+
 app.get('/shoes', (req, res) => {
     const shoes = [
         { name: "Birkenstocks", price: 50, type: "sandal" },
